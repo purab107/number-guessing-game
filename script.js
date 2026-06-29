@@ -3,6 +3,7 @@ const form = document.querySelector('#user-input-field')
 
 
 let guessList = []
+let numOfTrys = 0
 
 
 form.addEventListener("submit", function (event) {
@@ -17,3 +18,8 @@ form.addEventListener("submit", function (event) {
     console.log(taskName)
     console.log("Form submitted");
 });
+
+
+function checkTheGuess() {}
+function validateAnswer() {}
+function init() {}
